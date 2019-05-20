@@ -1113,7 +1113,7 @@ int MPU9250::whoAmIAK8963(){
   return _buffer[0];
 }
 
-void MPU9250::disableWhoAmICheck() {
+void MPU9250::disableMagnetometer() {
   _magnetometerEnabled = false;
 }
 
